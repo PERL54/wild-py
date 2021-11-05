@@ -1,7 +1,7 @@
 # Телеграм-бот для Продуктлаб
 ![LOGO](https://programadoresbrasil.com.br/wp-content/uploads/2019/08/telegram.jpg "Telegram")
 
-Простой телеграм бот для парсинга веб страниц. 
+Простой телеграм бот для парсинга товаров Wildberries по артиклю
 
 * **/get_brand** <article> - для получения бренда/изготовителя товара 
 * **/get_title** <article> - для получения названия товара
