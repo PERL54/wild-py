@@ -1,7 +1,9 @@
 import telebot 
 import wildparser
 
-bot = telebot.TeleBot("2141503797:AAFUe2EVyrWwrPKbPJJd6eM8p5eIpshygY0")
+TOKEN = ""
+
+bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start','help'])
 def welcome(msg):
