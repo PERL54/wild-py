@@ -8,7 +8,7 @@
 
 ___
   
-В файле `wildparser.py` хранится сам парсер. Для его работы потребуется наличие следующих билиотек:
+В файле `wildparser.py` хранится сам парсер. Для его, и не только, работы потребуется наличие следующих библиотек:
 1. **Requests** - устанавливается через `pip install requests`
 2. **BeautifulSoup** - устанвока - `pip install beautifulsoup4`
 3. **Telebot** - а тут не все так очевидно - `pip install pyTelegramBotAPI`
