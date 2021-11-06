@@ -1,7 +1,7 @@
 import telebot 
 import wildparser
 
-TOKEN = ""
+TOKEN = "2141503797:AAFUe2EVyrWwrPKbPJJd6eM8p5eIpshygY0"
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -31,6 +31,7 @@ def get_brand(msg):
 			bot.send_message(msg.chat.id, data)
 	except Exception as e:
 		bot.send_message(msg.chat.id, "Something went wrong! Check that the input is correct.", parse_mode= 'Markdown')
+		print(e)
 	
 @bot.message_handler(commands=['get_title'])
 def get_title(msg):
