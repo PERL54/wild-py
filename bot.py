@@ -1,7 +1,7 @@
 import telebot 
 import wildparser
 
-TOKEN = "2141503797:AAFUe2EVyrWwrPKbPJJd6eM8p5eIpshygY0"
+TOKEN = ""
 
 bot = telebot.TeleBot(TOKEN)
 
