@@ -20,4 +20,17 @@ ___
 ```python
 >>> TOKEN = "3151593693:AGFUe2HVyrJwrPKbPJJq6eM8P3eIpshZgY0"
 ```
+  
+___
+  
+Все товары сохраняются в базе данных `databse/products.db` - за основу взята **Sqlite3**. База данных имеет следующую структуру:
+
+| Столбец | Характеристики |
+| ------- | -------------- |
+| id | INGTEGER, PRIMARY, AUTOINCREMENT |
+| article | INTEGER |
+| brand | TEXT |
+| title | TEXT |
+
+___
 ![kavo](https://img.shields.io/badge/Developed%20by-PERL54-9cf)
