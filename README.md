@@ -1,4 +1,5 @@
 # Телеграм-бот для Продуктлаб
+
 ![LOGO](https://programadoresbrasil.com.br/wp-content/uploads/2019/08/telegram.jpg "Telegram")
 
 Простой телеграм бот для парсинга товаров Wildberries по артиклю
@@ -19,3 +20,4 @@ ___
 ```python
 >>> TOKEN = "3151593693:AGFUe2HVyrJwrPKbPJJq6eM8P3eIpshZgY0"
 ```
+![kavo](https://img.shields.io/badge/Developed%20by-PERL54-9cf)
