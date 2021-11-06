@@ -27,7 +27,7 @@ ___
 
 | Столбец | Характеристики |
 | ------- | -------------- |
-| id | INGTEGER, PRIMARY, AUTOINCREMENT |
+| id | INTEGER, PRIMARY, AUTOINCREMENT |
 | article | INTEGER |
 | brand | TEXT |
 | title | TEXT |
